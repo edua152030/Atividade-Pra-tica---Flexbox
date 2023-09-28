@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.laranja {
+    background-color: rgb(236, 114, 0);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.azul {
+    background-color: rgb(28, 3, 247);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
